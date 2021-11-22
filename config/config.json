@@ -10,6 +10,8 @@
     "dialect": "postgres"
   },
   "production": {
-    "use_env_variable": "DATABASE_URL"
+    "database": "basket_ball_brackets_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
   }
 }
